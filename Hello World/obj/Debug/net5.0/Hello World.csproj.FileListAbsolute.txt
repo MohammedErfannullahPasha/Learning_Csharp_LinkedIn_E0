@@ -1,0 +1,16 @@
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\bin\Debug\net5.0\Hello World.exe
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\bin\Debug\net5.0\Hello World.deps.json
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\bin\Debug\net5.0\Hello World.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\bin\Debug\net5.0\Hello World.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\bin\Debug\net5.0\Hello World.dll
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\bin\Debug\net5.0\ref\Hello World.dll
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\bin\Debug\net5.0\Hello World.pdb
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.csprojAssemblyReference.cache
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.dll
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\ref\Hello World.dll
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.pdb
+C:\Users\v-mopas\source\repos\Linkedin Learning\Learning C#_E0\Hello World\obj\Debug\net5.0\Hello World.genruntimeconfig.cache

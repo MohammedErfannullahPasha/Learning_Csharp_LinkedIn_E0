@@ -1,0 +1,15 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\bin\Debug\net5.0\SurveyApp.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\bin\Debug\net5.0\SurveyApp.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\bin\Debug\net5.0\SurveyApp.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\bin\Debug\net5.0\SurveyApp.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\bin\Debug\net5.0\SurveyApp.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\bin\Debug\net5.0\ref\SurveyApp.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\bin\Debug\net5.0\SurveyApp.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\ref\SurveyApp.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.genruntimeconfig.cache

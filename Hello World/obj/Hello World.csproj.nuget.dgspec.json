@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\v-mopas\\source\\repos\\Linkedin Learning\\Learning C#_E0\\Hello World\\Hello World.csproj": {}
+    "C:\\Users\\v-mopas\\source\\repos\\Learning_Csharp_LinkedIn_E0\\Hello World\\Hello World.csproj": {}
   },
   "projects": {
-    "C:\\Users\\v-mopas\\source\\repos\\Linkedin Learning\\Learning C#_E0\\Hello World\\Hello World.csproj": {
+    "C:\\Users\\v-mopas\\source\\repos\\Learning_Csharp_LinkedIn_E0\\Hello World\\Hello World.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\v-mopas\\source\\repos\\Linkedin Learning\\Learning C#_E0\\Hello World\\Hello World.csproj",
+        "projectUniqueName": "C:\\Users\\v-mopas\\source\\repos\\Learning_Csharp_LinkedIn_E0\\Hello World\\Hello World.csproj",
         "projectName": "Hello World",
-        "projectPath": "C:\\Users\\v-mopas\\source\\repos\\Linkedin Learning\\Learning C#_E0\\Hello World\\Hello World.csproj",
+        "projectPath": "C:\\Users\\v-mopas\\source\\repos\\Learning_Csharp_LinkedIn_E0\\Hello World\\Hello World.csproj",
         "packagesPath": "C:\\Users\\v-mopas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\v-mopas\\source\\repos\\Linkedin Learning\\Learning C#_E0\\Hello World\\obj\\",
+        "outputPath": "C:\\Users\\v-mopas\\source\\repos\\Learning_Csharp_LinkedIn_E0\\Hello World\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\v-mopas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

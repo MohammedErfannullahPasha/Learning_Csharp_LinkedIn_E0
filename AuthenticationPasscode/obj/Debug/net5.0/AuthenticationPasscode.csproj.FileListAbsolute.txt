@@ -1,0 +1,15 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\bin\Debug\net5.0\AuthenticationPasscode.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\bin\Debug\net5.0\AuthenticationPasscode.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\bin\Debug\net5.0\AuthenticationPasscode.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\bin\Debug\net5.0\AuthenticationPasscode.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\bin\Debug\net5.0\AuthenticationPasscode.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\bin\Debug\net5.0\ref\AuthenticationPasscode.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\bin\Debug\net5.0\AuthenticationPasscode.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\ref\AuthenticationPasscode.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.genruntimeconfig.cache

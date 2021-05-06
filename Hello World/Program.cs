@@ -6,7 +6,7 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            var stringsToPass = "Hello_World";
+            var stringsToPass = Console.ReadLine();
             Console.WriteLine(stringsToPass);
         }
     }

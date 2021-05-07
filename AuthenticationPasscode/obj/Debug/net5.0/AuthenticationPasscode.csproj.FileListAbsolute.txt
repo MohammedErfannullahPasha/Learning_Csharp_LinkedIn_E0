@@ -13,3 +13,4 @@ C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\ref\AuthenticationPasscode.dll
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.pdb
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.genruntimeconfig.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\AuthenticationPasscode\obj\Debug\net5.0\AuthenticationPasscode.csprojAssemblyReference.cache

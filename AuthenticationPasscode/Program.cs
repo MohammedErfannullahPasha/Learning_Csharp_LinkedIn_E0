@@ -6,15 +6,23 @@ namespace AuthenticationPasscode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("what is the passcode ?");
-            var passcode = Console.ReadLine();
-            if (passcode == "secret")
+
+            var passcode = "" ;
+            while (passcode != "secret")
+
             {
-                Console.WriteLine("you are Authenticated");
-            }
-            else
-            {
-                Console.WriteLine("Invalid passcode");
+                Console.WriteLine("what is the passcode ?");
+
+                passcode = Console.ReadLine();
+
+                if (passcode == "secret")
+                {
+                    Console.WriteLine("you are Authenticated");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid passcode");
+                }
             }
 
         }

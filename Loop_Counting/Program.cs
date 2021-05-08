@@ -8,19 +8,14 @@ namespace Loop_Counting
         {
             for (int repeat = 1; repeat <= 5 ; repeat++)
             {
-                int i = 1;
-                while (i <= 10)
+                for (int i = 1; i <= 10; i++)
                 {
                     Console.WriteLine(i);
-                    i++;
                 }
-                i--;
-                while (i > 0)
+                for (int i = 10; i >=1 ; i--)
                 {
                     Console.WriteLine(i);
-                    i--;
                 }
-
             }
             
             Console.ReadLine();

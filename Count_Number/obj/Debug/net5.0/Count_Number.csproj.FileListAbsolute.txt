@@ -1,0 +1,16 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\bin\Debug\net5.0\Count_Number.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\bin\Debug\net5.0\Count_Number.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\bin\Debug\net5.0\Count_Number.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\bin\Debug\net5.0\Count_Number.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\bin\Debug\net5.0\Count_Number.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\bin\Debug\net5.0\ref\Count_Number.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\bin\Debug\net5.0\Count_Number.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.csprojAssemblyReference.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\ref\Count_Number.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Count_Number\obj\Debug\net5.0\Count_Number.genruntimeconfig.cache

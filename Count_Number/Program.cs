@@ -6,12 +6,12 @@ namespace Count_Number
     {
         static void Main(string[] args)
         {
-            var numb = 1;
-            while (numb <= 100)
+
+            for (int count = 1; count <= 100; count++)
             {
-                Console.WriteLine(numb);
-                numb++;
+                Console.WriteLine(count);
             }
+
         }
     }
 }

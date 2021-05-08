@@ -1,0 +1,15 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\bin\Debug\net5.0\Loop_Counting.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\bin\Debug\net5.0\Loop_Counting.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\bin\Debug\net5.0\Loop_Counting.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\bin\Debug\net5.0\Loop_Counting.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\bin\Debug\net5.0\Loop_Counting.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\bin\Debug\net5.0\ref\Loop_Counting.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\bin\Debug\net5.0\Loop_Counting.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\Loop_Counting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\Loop_Counting.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\Loop_Counting.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\Loop_Counting.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\Loop_Counting.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\ref\Loop_Counting.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\Loop_Counting.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\Loop_Counting\obj\Debug\net5.0\Loop_Counting.genruntimeconfig.cache

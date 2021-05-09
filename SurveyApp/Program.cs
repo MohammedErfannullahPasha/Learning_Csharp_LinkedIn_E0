@@ -12,8 +12,7 @@ namespace SurveyApp
 
             while (Name == "")
             {
-                TryAgain();
-                Name = Console.ReadLine();
+                Name = TryAgain();
             }
 
             Console.WriteLine("what is your age ?");
@@ -21,8 +20,7 @@ namespace SurveyApp
 
             while (Age == "")
             {
-                TryAgain();
-                Age = Console.ReadLine();
+                Age = TryAgain();
             }
 
             Console.WriteLine("what month were you born in ?");
@@ -30,8 +28,7 @@ namespace SurveyApp
 
             while (Month == "")
             {
-                TryAgain();
-                Month = Console.ReadLine();
+                Month = TryAgain();
             }
 
             Console.WriteLine("Hi {0}! Since you were born in {1} and your " +
@@ -55,9 +52,10 @@ namespace SurveyApp
 
         }
 
-        static void TryAgain()
+        static string TryAgain()
         {
             Console.WriteLine("Please provide the input, it is mandatory");
+            return Console.ReadLine();
         }
 
     }

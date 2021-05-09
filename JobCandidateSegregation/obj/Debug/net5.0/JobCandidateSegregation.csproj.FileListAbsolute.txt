@@ -1,0 +1,16 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\bin\Debug\net5.0\JobCandidateSegregation.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\bin\Debug\net5.0\JobCandidateSegregation.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\bin\Debug\net5.0\JobCandidateSegregation.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\bin\Debug\net5.0\JobCandidateSegregation.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\bin\Debug\net5.0\JobCandidateSegregation.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\bin\Debug\net5.0\ref\JobCandidateSegregation.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\bin\Debug\net5.0\JobCandidateSegregation.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\ref\JobCandidateSegregation.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.genruntimeconfig.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\JobCandidateSegregation\obj\Debug\net5.0\JobCandidateSegregation.csprojAssemblyReference.cache

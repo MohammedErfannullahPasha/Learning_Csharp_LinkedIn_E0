@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace ArrayForeachLearning
 {
@@ -7,23 +9,27 @@ namespace ArrayForeachLearning
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Number of students in Class ?");
-            var studentCount = int.Parse(Console.ReadLine());
-
-            var studentName = new string[studentCount];
-            var studentGrade = new string[studentCount];
-
-            for (int i = 0; i < studentCount; i++)
+            var studentName = new List<string>();
+            var studentGrade = new List<int>();
+            bool answer = true;
+            while (answer)
             {
                 Console.WriteLine("Student_Name : ");
-                studentName[i] = Console.ReadLine();
+                studentName.Add(Console.ReadLine());
 
                 Console.WriteLine("Student_Grade : ");
-                studentGrade[i] = Console.ReadLine();
+                studentGrade.Add(int.Parse(Console.ReadLine()));
+
+                Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
+                string _answer = Console.ReadLine();
+                if (_answer != "Yes")
+                {
+                    answer = false;
+                }
 
             }
 
-            for (int i = 0; i < studentCount; i++)
+            for (int i = 0; i < studentName.Count; i++)
             {
                 Console.WriteLine("Student_Name : {0} & Student_Grade : {1}", studentName[i], studentGrade[i]);
             }

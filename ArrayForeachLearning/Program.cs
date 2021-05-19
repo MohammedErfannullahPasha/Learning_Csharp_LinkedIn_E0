@@ -29,7 +29,7 @@ namespace ArrayForeachLearning
                 studentObj.Address = Console.ReadLine();
 
                 Console.WriteLine("Student_Phone# : ");
-                studentObj.Phone = long.Parse(Console.ReadLine());
+                studentObj.setPhone(long.Parse(Console.ReadLine()));
 
                 Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
                 string _answer = Console.ReadLine();
@@ -58,6 +58,12 @@ namespace ArrayForeachLearning
         public int Grade;
         public string Birthday;
         public string Address;
-        public long Phone;
+        private long Phone;
+
+        //setting the value using method but cannot get the value from line61 to line 49
+        public void setPhone(long number)
+        {
+            Phone = number;
+        }
     }
 }

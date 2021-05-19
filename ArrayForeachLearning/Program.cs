@@ -22,9 +22,17 @@ namespace ArrayForeachLearning
 
                 Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
                 string _answer = Console.ReadLine();
-                if (_answer != "Yes")
+                if (_answer == "Yes")
+                {
+                    answer = true;
+                }
+                else if (_answer == "No")
                 {
                     answer = false;
+                }
+                else
+                {
+                    Console.WriteLine("Please provide defined input");
                 }
 
             }

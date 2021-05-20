@@ -11,8 +11,6 @@ namespace ArrayForeachLearning
 
             var StudentList = new List<Student>();
 
-            int Count = 0;
-
             bool answer = true;
 
             while (answer)
@@ -34,8 +32,9 @@ namespace ArrayForeachLearning
                 Console.WriteLine("Student_Phone# : ");
                 studentObj.PhoneNumb = long.Parse(Console.ReadLine());
 
-                Count++;
-                Console.WriteLine("Student Number : {0}", Count);
+                //calling count using Student class, we cannot call Count using its instance "studentObj".
+                Student.Count++;
+                Console.WriteLine("Student Reg No : {0}", Student.Count);
 
                 Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
                 string _answer = Console.ReadLine();
@@ -49,6 +48,8 @@ namespace ArrayForeachLearning
 
             }
 
+            Console.WriteLine("Total Number of Students : {0}", Student.Count);
+
             foreach (var student in StudentList)
             {
                 Console.WriteLine("Student_Name : {0} | Student_Grade : {1} | Student_Bday : {2} | " +
@@ -60,6 +61,11 @@ namespace ArrayForeachLearning
 
     class Student
     {
+
+        //1. adding static variable to count the class of student, even if we have 10 students but we will only have 
+        //one count to worry about.
+        //2. Static field is shared accross all instances of students.
+        public static int Count = 0;
         public string Name;
         public int Grade;
         public string Birthday;

@@ -11,7 +11,10 @@ namespace ArrayForeachLearning
 
             var StudentList = new List<Student>();
 
+            int Count = 0;
+
             bool answer = true;
+
             while (answer)
             {
                 Student studentObj = new Student();
@@ -30,6 +33,9 @@ namespace ArrayForeachLearning
 
                 Console.WriteLine("Student_Phone# : ");
                 studentObj.PhoneNumb = long.Parse(Console.ReadLine());
+
+                Count++;
+                Console.WriteLine("Student Number : {0}", Count);
 
                 Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
                 string _answer = Console.ReadLine();

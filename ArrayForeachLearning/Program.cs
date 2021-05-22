@@ -69,12 +69,21 @@ namespace ArrayForeachLearning
         public string Address;
         private long Phone;
 
-        //creating a constructor to pass the student data upfront or from spreadsheet.
-
+        //lets create an empty constructor to bypass and user is able to provide the data for studentObj.
+        //this constructor is used for the user to provide the data of student after instance is created.
         public Student()
         {
-            Console.WriteLine("checking the sequence of steps. Note : as soon as instance is created, " +
-                "this constructor is invoked");
+
+        }
+        //creating a constructor to pass the student data upfront or from spreadsheet.
+        //This constructor is used when data is set when we create a student or to import from XLS.
+        public Student(string name, int grade, string birthday, string address, long phone)
+        {
+            Name = name;
+            Grade = grade;
+            Birthday = birthday;
+            Address = address;
+            Phone = phone;
         }
 
         //setting the value using method but cannot get the value from line61 to line 49

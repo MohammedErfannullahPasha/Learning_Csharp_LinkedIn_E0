@@ -17,20 +17,17 @@ namespace ArrayForeachLearning
             {
                 Student studentObj = new Student();
 
-                Console.WriteLine("Student_Name : ");
-                studentObj.Name = Console.ReadLine();
+                //Using the Console class from QnA namespace.
 
-                Console.WriteLine("Student_Grade : ");
-                studentObj.Grade = int.Parse(Console.ReadLine());
+                studentObj.Name = QnA.Console.Ask("Student_Name : ");
 
-                Console.WriteLine("Student_Bday : ");
-                studentObj.Birthday = Console.ReadLine();
+                studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
 
-                Console.WriteLine("Student_Address : ");
-                studentObj.Address = Console.ReadLine();
+                studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 
-                Console.WriteLine("Student_Phone# : ");
-                studentObj.PhoneNumb = long.Parse(Console.ReadLine());
+                studentObj.Address = QnA.Console.Ask("Student_Address : ");
+
+                studentObj.PhoneNumb = long.Parse(QnA.Console.Ask("Student_Phone# : "));
 
                 //calling count using Student class, we cannot call Count using its instance "studentObj".
                 Student.Count++;

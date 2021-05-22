@@ -69,6 +69,14 @@ namespace ArrayForeachLearning
         public string Address;
         private long Phone;
 
+        //creating a constructor to pass the student data upfront or from spreadsheet.
+
+        public Student()
+        {
+            Console.WriteLine("checking the sequence of steps. Note : as soon as instance is created, " +
+                "this constructor is invoked");
+        }
+
         //setting the value using method but cannot get the value from line61 to line 49
 
         public long PhoneNumb

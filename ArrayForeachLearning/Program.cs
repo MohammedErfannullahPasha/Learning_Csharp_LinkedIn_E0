@@ -33,9 +33,8 @@ namespace ArrayForeachLearning
                 studentObj.PhoneNumb = long.Parse(Console.ReadLine());
 
                 //calling count using Student class, we cannot call Count using its instance "studentObj".
-                //Since static is removed, we should use Count by using instace studentObj.
-                studentObj.Count++;
-                Console.WriteLine("Student Reg No : {0}", studentObj.Count);
+                Student.Count++;
+                Console.WriteLine("Student Reg No : {0}", Student.Count);
 
                 Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
                 string _answer = Console.ReadLine();
@@ -49,7 +48,7 @@ namespace ArrayForeachLearning
 
             }
 
-            Console.WriteLine("Total Number of Students : {0}", StudentList.Count);
+            Console.WriteLine("Total Number of Students : {0}", Student.Count);
 
             foreach (var student in StudentList)
             {
@@ -66,10 +65,7 @@ namespace ArrayForeachLearning
         //1. adding static variable to count the class of student, even if we have 10 students but we will only have 
         //one count to worry about.
         //2. Static field is shared accross all instances of students.
-        //3. just by removing "static" keyword will throw error at Line36 & 37, "Count" cannot be accessed by class_Name.
-        //So we have to use the studentObj instace to count. you can see the difference that, every instance Count will be one.
-        //but StudentList.Count will give correct value.
-        public int Count = 0;
+        public static int Count = 0;
         public string Name;
         public int Grade;
         public string Birthday;

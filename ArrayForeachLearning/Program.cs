@@ -9,6 +9,9 @@ namespace ArrayForeachLearning
         static void Main(string[] args)
         {
 
+            //using the pre-defined student data which is simulated using Import function
+            Import();
+
             var StudentList = new List<Student>();
 
             bool answer = true;
@@ -53,6 +56,16 @@ namespace ArrayForeachLearning
                     "Student_Address : {3} | Student_Phone# : {4} ", student.Name, student.Grade, student.Birthday, student.Address, student.PhoneNumb);
             }
 
+        }
+
+        //Let us create method to simulate the import of student data from external resource like spreadhseet.
+        //constructing student with pre existing data and that data can be displayed on Console.
+        //removing static gives the error when Import() is called from Main method, why ?
+        public static void Import()
+        {
+            Student importStudData = new Student("Erfan", 89, "31 Dec 1993", "Ballari-583104", 9480563943);
+            Console.WriteLine(importStudData.Name);
+            //importStudData.Grade, importStudData.Birthday, importStudData.Address, importStudData.PhoneNumb
         }
     }
 

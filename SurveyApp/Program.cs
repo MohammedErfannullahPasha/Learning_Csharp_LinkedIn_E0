@@ -2,22 +2,16 @@
 
 namespace SurveyApp
 {
-    class Program
+    
+    public class Data
     {
-        static void Main(string[] args)
+        public string Name;
+        public int Age;
+        public string Month;
+
+        public void Display()
         {
-
-            Console.WriteLine("what is your name ?");
-            var Name = TryAgain();
-            
-            Console.WriteLine("what is your age ?");
-            var Age = TryAgain();
-
-            Console.WriteLine("what month were you born in ?");
-            var Month = TryAgain();
-            
-            Console.WriteLine("Hi {0}! Since you were born in {1} and your " +
-                "age is {2}", Name, Month, Age);
+            Console.WriteLine("Hi {0}! Since you were born in {1} and your age is {2}", Name, Month, Age);
 
             if (Month == "December")
             {
@@ -36,18 +30,41 @@ namespace SurveyApp
             }
 
         }
+    }
 
-        static string TryAgain()
+    
+    class Program
+    {
+        static void Main(string[] args)
         {
-            string answer = Console.ReadLine();
+
+            Data data = new Data();
+
+            Console.WriteLine("what is your name ?");
+            data.Name = TryAgain();
+
+            Console.WriteLine("what is your age ?");
+            data.Age = int.Parse(TryAgain());
+
+            Console.WriteLine("what month were you born in ?");
+            data.Month = TryAgain();
+
+            data.Display();
             
-            while (answer == "")
+
+            static string TryAgain()
             {
-                Console.WriteLine("Please provide the input, it is mandatory");
-                answer = Console.ReadLine();
+                string answer = Console.ReadLine();
+
+                while (answer == "")
+                {
+                    Console.WriteLine("Please provide the input, it is mandatory");
+                    answer = Console.ReadLine();
+                }
+                return answer;
             }
-            return answer;
         }
 
     }
+
 }

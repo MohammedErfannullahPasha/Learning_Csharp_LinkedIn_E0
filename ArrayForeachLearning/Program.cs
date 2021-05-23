@@ -9,9 +9,6 @@ namespace ArrayForeachLearning
         static void Main(string[] args)
         {
 
-            //using the pre-defined student data which is simulated using Import function
-            Import();
-
             var StudentList = new List<Student>();
 
             bool answer = true;
@@ -69,38 +66,13 @@ namespace ArrayForeachLearning
         }
     }
 
-    class Student
+    class MemberOfSchool
     {
-
-        //1. adding static variable to count the class of student, even if we have 10 students but we will only have 
-        //one count to worry about.
-        //2. Static field is shared accross all instances of students.
-        public static int Count = 0;
         public string Name;
-        public int Grade;
-        public string Birthday;
         public string Address;
-        private long Phone;
-
-        //lets create an empty constructor to bypass and user is able to provide the data for studentObj.
-        //this constructor is used for the user to provide the data of student after instance is created.
-        public Student()
-        {
-
-        }
-        //creating a constructor to pass the student data upfront or from spreadsheet.
-        //This constructor is used when data is set when we create a student or to import from XLS.
-        public Student(string name, int grade, string birthday, string address, long phone)
-        {
-            Name = name;
-            Grade = grade;
-            Birthday = birthday;
-            Address = address;
-            Phone = phone;
-        }
-
-        //setting the value using method but cannot get the value from line61 to line 49
-
+        //private access specifier makes member to be accessible within same class only, Since Phone
+        //field is inherited by other classes, wes should use protected access modifier.
+        protected long Phone;
         public long PhoneNumb
         {
             set
@@ -114,9 +86,35 @@ namespace ArrayForeachLearning
             }
         }
 
-        //public void setPhone(long number)
-        //{
-        //    Phone = number;
-        //}
+    }
+
+    class Student : MemberOfSchool
+
+    {
+
+        public static int Count = 0;
+        public int Grade;
+        public string Birthday;
+
+        public Student()
+        {
+
+        }
+
+        public Student(string name, int grade, string birthday, string address, long phone)
+        {
+            Name = name;
+            Grade = grade;
+            Birthday = birthday;
+            Address = address;
+            Phone = phone;
+        }
+
+    }
+
+    //Try to add more feature : to add teacher details and put it in seperate list.
+    class Teacher : MemberOfSchool
+    {
+        public string Subject;
     }
 }

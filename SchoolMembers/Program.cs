@@ -15,48 +15,53 @@ namespace SchoolMember
 
             while (answer)
             {
-                Student studentObj = new Student();
-
-                //Using the Console class from QnA namespace.
-
-                studentObj.Name = QnA.Console.Ask("Student_Name : ");
-
-                //studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
-                //using TryParse method to handle exception by not blocking the app during runtime.
-                //in this method, output has 2 answers :
-                //1. true if the conversion was successfull and value is given at out parameter
-                //2. false if the conversion failed and value is 0 by default
-                //let us take result and provide the error message.
-                bool result = int.TryParse(QnA.Console.Ask("Student_Grade : "), out studentObj.Grade);
-
-                //note that, this method will not give a chance to re-enter the value. that is why we use try and catch blocks
-                if (result == false)
+                
+                try
                 {
-                    Console.WriteLine("incorrect value provided. Please enter initeger value");
-                }
-                //if you write like this : 
-                //if (result) : it means if (result == true)
-                //if (!result) : it means, if (result == false)
 
-                studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
+                    Student studentObj = new Student();
 
-                studentObj.Address = QnA.Console.Ask("Student_Address : ");
+                    //Using the Console class from QnA namespace.
 
-                studentObj.PhoneNumb = long.Parse(QnA.Console.Ask("Student_Phone# : "));
+                    studentObj.Name = QnA.Console.Ask("Student_Name : ");
 
-                //calling count using Student class, we cannot call Count using its instance "studentObj".
-                Student.Count++;
-                Console.WriteLine("Student Reg No : {0}", Student.Count);
+                    studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
 
-                Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
-                string _answer = Console.ReadLine();
+                    //if (result == false)
+                    //{
+                    //    Console.WriteLine("incorrect value provided. Please enter initeger value");
+                    //}
 
-                if (_answer != "Yes")
-                {
-                    answer = false;
+                    studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
+
+                    studentObj.Address = QnA.Console.Ask("Student_Address : ");
+
+                    studentObj.PhoneNumb = long.Parse(QnA.Console.Ask("Student_Phone# : "));
+
+                    //calling count using Student class, we cannot call Count using its instance "studentObj".
+                    Student.Count++;
+                    Console.WriteLine("Student Reg No : {0}", Student.Count);
+
+                    Console.WriteLine("Do you want to add another student details, Choose Yes/No ?");
+                    string _answer = Console.ReadLine();
+
+                    if (_answer != "Yes")
+                    {
+                        answer = false;
+                    }
+
+                    StudentList.Add(studentObj);
+
                 }
 
-                StudentList.Add(studentObj);
+
+                catch(Exception)
+                {
+                    //afterf catching the exeception this block is executed
+                    //as soon as the exception is thrown at line 28 & 39 due to incorrect input i.e., string value, the program jumps to catch.
+                    Console.WriteLine("incorrect value provided. Please enter initeger value as the program begins again - catcher");
+                }
+
 
             }
 

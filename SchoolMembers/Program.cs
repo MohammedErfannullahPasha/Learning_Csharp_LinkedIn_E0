@@ -54,7 +54,7 @@ namespace SchoolMember
                 }
 
 
-                catch(Exception)
+                catch(FormatException)
                 {
                     //afterf catching the exeception this block is executed
                     //as soon as the exception is thrown at line 28 & 39 due to incorrect input i.e., string value, the program jumps to catch.

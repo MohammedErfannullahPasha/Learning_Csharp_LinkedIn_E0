@@ -1,0 +1,15 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\bin\Debug\net5.0\SchoolMember.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\bin\Debug\net5.0\SchoolMember.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\bin\Debug\net5.0\SchoolMember.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\bin\Debug\net5.0\SchoolMember.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\bin\Debug\net5.0\SchoolMember.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\bin\Debug\net5.0\ref\SchoolMember.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\bin\Debug\net5.0\SchoolMember.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\ref\SchoolMember.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.genruntimeconfig.cache

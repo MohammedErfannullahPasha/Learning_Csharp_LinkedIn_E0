@@ -1,0 +1,16 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\bin\Debug\net5.0\ArrayForeachLearning.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\bin\Debug\net5.0\ArrayForeachLearning.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\bin\Debug\net5.0\ArrayForeachLearning.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\bin\Debug\net5.0\ArrayForeachLearning.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\bin\Debug\net5.0\ArrayForeachLearning.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\bin\Debug\net5.0\ref\ArrayForeachLearning.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\bin\Debug\net5.0\ArrayForeachLearning.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.csprojAssemblyReference.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ref\ArrayForeachLearning.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\ArrayForeachLearning\obj\Debug\net5.0\ArrayForeachLearning.genruntimeconfig.cache

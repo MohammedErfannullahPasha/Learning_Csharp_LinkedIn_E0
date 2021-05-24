@@ -21,7 +21,22 @@ namespace SchoolMember
 
                 studentObj.Name = QnA.Console.Ask("Student_Name : ");
 
-                studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
+                //studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
+                //using TryParse method to handle exception by not blocking the app during runtime.
+                //in this method, output has 2 answers :
+                //1. true if the conversion was successfull and value is given at out parameter
+                //2. false if the conversion failed and value is 0 by default
+                //let us take result and provide the error message.
+                bool result = int.TryParse(QnA.Console.Ask("Student_Grade : "), out studentObj.Grade);
+
+                //note that, this method will not give a chance to re-enter the value. that is why we use try and catch blocks
+                if (result == false)
+                {
+                    Console.WriteLine("incorrect value provided. Please enter initeger value");
+                }
+                //if you write like this : 
+                //if (result) : it means if (result == true)
+                //if (!result) : it means, if (result == false)
 
                 studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 

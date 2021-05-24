@@ -25,17 +25,13 @@ namespace SchoolMember
 
                     studentObj.Name = QnA.Console.Ask("Student_Name : ");
 
-                    studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
-
-                    //execption catches this and never proceeds further
-                    int Denr = 0;
-                    int fraction = 1 / Denr;
+                    studentObj.Grade = QnA.Console.AskInt("Student_Grade : ");
 
                     studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 
                     studentObj.Address = QnA.Console.Ask("Student_Address : ");
 
-                    studentObj.PhoneNumb = long.Parse(QnA.Console.Ask("Student_Phone# : "));
+                    studentObj.PhoneNumb = QnA.Console.AskLong("Student_Phone# : ");
 
                     //calling count using Student class, we cannot call Count using its instance "studentObj".
                     Student.Count++;
@@ -60,11 +56,6 @@ namespace SchoolMember
                     //afterf catching the exeception this block is executed
                     //as soon as the exception is thrown at line 28 & 39 due to incorrect input i.e., string value, the program jumps to catch.
                     Console.WriteLine("incorrect input was provided. Please enter initeger value as the program begins again - catcher");
-                }
-
-                catch(Exception)
-                {
-                    Console.WriteLine("catched DivideByZeroException using Generic Exception");
                 }
 
             }

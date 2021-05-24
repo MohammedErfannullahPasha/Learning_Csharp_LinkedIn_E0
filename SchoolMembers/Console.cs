@@ -13,5 +13,18 @@ namespace QnA
             System.Console.Write(question);
             return System.Console.ReadLine();
         }
+
+        public static int AskInt(string question)
+        {
+            System.Console.Write(question);
+            return int.Parse(System.Console.ReadLine());
+        }
+
+        public static long AskLong(string question)
+        {
+            System.Console.Write(question);
+            return int.Parse(System.Console.ReadLine());
+        }
+
     }
 }

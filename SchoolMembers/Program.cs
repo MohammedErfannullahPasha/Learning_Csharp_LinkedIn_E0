@@ -25,12 +25,11 @@ namespace SchoolMember
 
                     studentObj.Name = QnA.Console.Ask("Student_Name : ");
 
-                    studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
+                    //execption catches this and never proceeds further
+                    int Denr = 0;
+                    int fraction = 1 / Denr;
 
-                    //if (result == false)
-                    //{
-                    //    Console.WriteLine("incorrect value provided. Please enter initeger value");
-                    //}
+                    studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
 
                     studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 

@@ -25,11 +25,11 @@ namespace SchoolMember
 
                     studentObj.Name = QnA.Console.Ask("Student_Name : ");
 
+                    studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
+
                     //execption catches this and never proceeds further
                     int Denr = 0;
                     int fraction = 1 / Denr;
-
-                    studentObj.Grade = int.Parse(QnA.Console.Ask("Student_Grade : "));
 
                     studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 
@@ -53,14 +53,19 @@ namespace SchoolMember
 
                 }
 
+                //INTERCHANGING THE BELOW CATCH WILL MAKE FormatExcpetion deprecated.
 
                 catch(FormatException)
                 {
                     //afterf catching the exeception this block is executed
                     //as soon as the exception is thrown at line 28 & 39 due to incorrect input i.e., string value, the program jumps to catch.
-                    Console.WriteLine("incorrect value provided. Please enter initeger value as the program begins again - catcher");
+                    Console.WriteLine("incorrect input was provided. Please enter initeger value as the program begins again - catcher");
                 }
 
+                catch(Exception)
+                {
+                    Console.WriteLine("catched DivideByZeroException using Generic Exception");
+                }
 
             }
 

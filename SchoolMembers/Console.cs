@@ -16,8 +16,16 @@ namespace QnA
 
         public static int AskInt(string question)
         {
-            System.Console.Write(question);
-            return int.Parse(System.Console.ReadLine());
+            try
+            {
+                System.Console.Write(question);
+                return int.Parse(System.Console.ReadLine());
+            }
+            catch(Exception)
+            {
+                throw new FormatException("invalid Input - string input cannot be converted to int.Pleasr provide correct value");
+            }
+
         }
 
         public static long AskLong(string question)

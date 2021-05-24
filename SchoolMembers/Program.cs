@@ -51,11 +51,11 @@ namespace SchoolMember
 
                 //INTERCHANGING THE BELOW CATCH WILL MAKE FormatExcpetion deprecated.
 
-                catch(FormatException)
+                catch(FormatException msgVariable)
                 {
                     //afterf catching the exeception this block is executed
                     //as soon as the exception is thrown at line 28 & 39 due to incorrect input i.e., string value, the program jumps to catch.
-                    Console.WriteLine("incorrect input was provided. Please enter initeger value as the program begins again - catcher");
+                    Console.WriteLine(msgVariable.Message);
                 }
 
             }

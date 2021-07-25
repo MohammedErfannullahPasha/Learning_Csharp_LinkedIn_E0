@@ -13,4 +13,4 @@ C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debu
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\ref\SchoolMember.dll
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.pdb
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.genruntimeconfig.cache
-C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.csprojAssemblyReference.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SchoolMembers\obj\Debug\net5.0\SchoolMember.csproj.AssemblyReference.cache

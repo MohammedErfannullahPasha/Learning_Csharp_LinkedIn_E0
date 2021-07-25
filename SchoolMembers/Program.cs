@@ -29,6 +29,8 @@ namespace SchoolMember
 
                     studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 
+                    studentObj.school = QnA.Console.Ask("School_Name : ");
+
                     studentObj.Address = QnA.Console.Ask("Student_Address : ");
 
                     studentObj.PhoneNumb = QnA.Console.AskLong("Student_Phone# : ");
@@ -110,7 +112,7 @@ namespace SchoolMember
         public static int Count = 0;
         public int Grade;
         public string Birthday;
-
+        public string school;
         public Student()
         {
 

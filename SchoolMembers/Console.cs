@@ -23,7 +23,7 @@ namespace QnA
             }
             catch(Exception)
             {
-                throw new FormatException("invalid Input - string input cannot be converted to int.Pleasr provide correct value");
+                throw new FormatException("invalid Input - string input cannot be converted to int. Please provide correct value");
             }
 
         }
@@ -31,7 +31,7 @@ namespace QnA
         public static long AskLong(string question)
         {
             System.Console.Write(question);
-            return int.Parse(System.Console.ReadLine());
+            return long.Parse(System.Console.ReadLine());
         }
 
     }

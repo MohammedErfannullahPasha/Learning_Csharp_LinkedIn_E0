@@ -29,7 +29,8 @@ namespace SchoolMember
 
                     studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 
-                    studentObj.school = QnA.Console.Ask("School_Name : ");
+                    studentObj.schoolname = QnA.Console.AskInt("Please select school name from the list : \n " +
+                        "(0) : Vianney Vidyalaya \n (1) : Kadapa Girls School \n (2) : Kendriya vidyalaya \n");
 
                     studentObj.Address = QnA.Console.Ask("Student_Address : ");
 
@@ -66,8 +67,8 @@ namespace SchoolMember
 
             foreach (var student in StudentList)
             {
-                Console.WriteLine("Student_Name : {0} | Student_Grade : {1} | Student_Bday : {2} | " +
-                    "Student_Address : {3} | Student_Phone# : {4} ", student.Name, student.Grade, student.Birthday, student.Address, student.PhoneNumb);
+                Console.WriteLine("Student_Name : {0} | Student_Grade : {1} | Student_Bday : {2} | School_Name : {5} |" +
+                    "Student_Address : {3} | Student_Phone# : {4} ", student.Name, student.Grade, student.Birthday, student.Address, student.PhoneNumb, student.schoolname);
             }
 
         }
@@ -112,7 +113,7 @@ namespace SchoolMember
         public static int Count = 0;
         public int Grade;
         public string Birthday;
-        public string school;
+        public int schoolname;
         public Student()
         {
 

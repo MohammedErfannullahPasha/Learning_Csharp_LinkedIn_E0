@@ -6,10 +6,10 @@ namespace SchoolMember
 {
     class Program
     {
+        static List<Student> StudentList = new List<Student>();
+
         static void Main(string[] args)
         {
-
-            var StudentList = new List<Student>();
 
             bool answer = true;
 
@@ -71,6 +71,8 @@ namespace SchoolMember
                     "Student_Address : {3} | Student_Phone# : {4} ", student.Name, student.Grade, student.Birthday, student.Address, student.PhoneNumb, student.schoolname);
             }
 
+            Export();
+
         }
 
         //Let us create method to simulate the import of student data from external resource like spreadhseet.
@@ -82,6 +84,26 @@ namespace SchoolMember
             Console.WriteLine(importStudData.Name);
             //importStudData.Grade, importStudData.Birthday, importStudData.Address, importStudData.PhoneNumb
         }
+
+        public static void Export()
+        {
+            foreach (var student in StudentList)
+            {
+                switch(student.schoolname)
+                {
+                    case 0:
+                        Console.WriteLine("Exporting to Vianney Vidyalaya");
+                        break;
+                    case 1:
+                        Console.WriteLine("Exporting to Kadapa Girls School");
+                        break;
+                    case 2:
+                        Console.WriteLine("Exporting to Kendriya vidyalaya");
+                        break;
+                }
+            }
+        }
+
     }
 
     class MemberOfSchool

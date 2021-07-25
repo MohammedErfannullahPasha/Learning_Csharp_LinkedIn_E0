@@ -4,6 +4,13 @@ using System.Collections.Generic;
 
 namespace SchoolMember
 {
+    enum Eschool
+    {
+        Vianney_Vidyalaya = 0,
+        Kadapa_Girls_School = 1,
+        Kendriya_vidyalaya = 2
+    }
+
     class Program
     {
         static List<Student> StudentList = new List<Student>();
@@ -29,7 +36,8 @@ namespace SchoolMember
 
                     studentObj.Birthday = QnA.Console.Ask("Student_Bday : ");
 
-                    studentObj.schoolname = QnA.Console.AskInt("Please select school name from the list : \n " +
+                    //cannot be converted to int implicitly, so need to parse or explicitly convert to Eschool enum index values
+                    studentObj.schoolname = (Eschool) QnA.Console.AskInt("Please select school name from the list : \n " +
                         "(0) : Vianney Vidyalaya \n (1) : Kadapa Girls School \n (2) : Kendriya vidyalaya \n");
 
                     studentObj.Address = QnA.Console.Ask("Student_Address : ");
@@ -91,13 +99,13 @@ namespace SchoolMember
             {
                 switch(student.schoolname)
                 {
-                    case 0:
+                    case Eschool.Vianney_Vidyalaya:
                         Console.WriteLine("Exporting to Vianney Vidyalaya");
                         break;
-                    case 1:
+                    case Eschool.Kadapa_Girls_School:
                         Console.WriteLine("Exporting to Kadapa Girls School");
                         break;
-                    case 2:
+                    case Eschool.Kendriya_vidyalaya:
                         Console.WriteLine("Exporting to Kendriya vidyalaya");
                         break;
                 }
@@ -135,7 +143,8 @@ namespace SchoolMember
         public static int Count = 0;
         public int Grade;
         public string Birthday;
-        public int schoolname;
+        public Eschool schoolname;
+
         public Student()
         {
 

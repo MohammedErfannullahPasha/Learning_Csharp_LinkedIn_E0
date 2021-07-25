@@ -1,0 +1,16 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\bin\Debug\net5.0\OutReference.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\bin\Debug\net5.0\OutReference.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\bin\Debug\net5.0\OutReference.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\bin\Debug\net5.0\OutReference.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\bin\Debug\net5.0\OutReference.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\bin\Debug\net5.0\ref\OutReference.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\bin\Debug\net5.0\OutReference.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.csproj.AssemblyReference.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\ref\OutReference.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\OutReference\obj\Debug\net5.0\OutReference.genruntimeconfig.cache

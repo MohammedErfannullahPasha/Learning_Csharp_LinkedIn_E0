@@ -6,11 +6,15 @@ namespace OutReference
     {
         static void Main(string[] args)
         {
+            
+            //to use the ref keyword, we must initialize before using it.
             int x = 2;
             
             Console.WriteLine(x);
-            
-            five(out x);
+
+            //five(out x);
+
+            Double(ref x);
 
             //now, x is referencing towards variable "a" so the value provided by next line is 5
 
@@ -24,6 +28,12 @@ namespace OutReference
         {
             a = 5;
             Console.WriteLine(a);
+        }
+
+        public static void Double (ref int b)
+        {
+            b = b * 2;
+            Console.WriteLine(b);
         }
 
     }

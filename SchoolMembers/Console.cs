@@ -14,6 +14,14 @@ namespace QnA
             return System.Console.ReadLine();
         }
 
+        //Method Overloading : lets overload Ask function by taking different data type of parameter
+        
+        public static string Ask(int question)
+        {
+            System.Console.Write(question);
+            return System.Console.ReadLine();
+        }
+
         public static int AskInt(string question)
         {
             try

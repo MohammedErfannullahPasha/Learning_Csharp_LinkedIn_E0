@@ -18,6 +18,9 @@ namespace SchoolMember
         static void Main(string[] args)
         {
 
+            PayRoll payroll = new PayRoll();
+            payroll.PayAll();
+            
             bool answer = true;
 
             while (answer)
@@ -158,12 +161,5 @@ namespace SchoolMember
             Address = address;
             Phone = phone;
         }
-
-    }
-
-    //Try to add more feature : to add teacher details and put it in seperate list.
-    class Teacher : MemberOfSchool
-    {
-        public string Subject;
     }
 }

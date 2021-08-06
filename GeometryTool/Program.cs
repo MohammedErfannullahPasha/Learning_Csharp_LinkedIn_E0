@@ -10,29 +10,48 @@ namespace GeometryTool
             var square = new Square() { Side = 2 };
             var triangle = new Triangle() { Height = 2, Width =5 };
 
-            Console.WriteLine(square.GetArea());
-            Console.WriteLine(triangle.GetArea());
-        
-        
+            //Console.WriteLine(square.GetArea());
+            //Console.WriteLine(triangle.GetArea());
+            
+            square.DisplayArea();
+            triangle.DisplayArea();
         
         }
     }
 
-    class Square
+    //abstract is similar to class between normal class and interface.
+    //here, we will connnect 2 different class which has commom method by abstract class
+    abstract class Shape
+    {
+
+        //creating abstract method
+        public abstract int GetArea();
+
+        //below such funtion can be implemented in abstract class but not in interface.
+        public void DisplayArea()
+        {
+            Console.WriteLine("Area of the Shape is {0}", GetArea());
+        }
+
+    }
+
+    class Square : Shape
     {
         public int Side;
 
-        public int GetArea()
+        //abstract method makes madatory to implement getarea method.
+        public override int GetArea()
         {
             return Side * Side;
         }
     }
 
-    class Triangle
+    class Triangle : Shape
     {
         public int Height, Width;
 
-        public int GetArea()
+        //abstract method makes madatory to implement getarea method.
+        public override int GetArea()
         {
             return Height * Width / 2;
         }

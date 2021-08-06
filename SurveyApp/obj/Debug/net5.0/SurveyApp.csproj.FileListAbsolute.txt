@@ -13,4 +13,4 @@ C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\ne
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\ref\SurveyApp.dll
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.pdb
 C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.genruntimeconfig.cache
-C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.csprojAssemblyReference.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\SurveyApp\obj\Debug\net5.0\SurveyApp.csproj.AssemblyReference.cache

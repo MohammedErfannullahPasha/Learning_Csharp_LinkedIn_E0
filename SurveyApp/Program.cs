@@ -35,8 +35,14 @@ namespace SurveyApp
     
     class Program
     {
+        //declaring or creating an event
+        static public event Action Posted;
+
         static void Main(string[] args)
         {
+            //calling the method to display the message once the event is received by subscriber
+            var stats = new Stats();
+            stats.Start();
 
             Data data = new Data();
 
@@ -48,6 +54,9 @@ namespace SurveyApp
 
             Console.WriteLine("what month were you born in ?");
             data.Month = TryAgain();
+
+            //event will trigger when all the details are provided.
+            Posted();
 
             data.Display();
             

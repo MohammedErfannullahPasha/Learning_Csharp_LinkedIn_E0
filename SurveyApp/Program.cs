@@ -56,7 +56,13 @@ namespace SurveyApp
             data.Month = TryAgain();
 
             //event will trigger when all the details are provided.
-            Posted();
+            //since nothing is registered, you will get null exception as eventhandler method (i.e., HasPosted) is not assigned.
+            //so make sure to trigger below event method when atleast one is subscribed and it can be ensured by if statement.
+
+            if(Posted != null)
+            {
+                Posted();
+            }
 
             data.Display();
             

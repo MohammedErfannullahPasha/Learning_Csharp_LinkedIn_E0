@@ -15,8 +15,9 @@ namespace SurveyApp
         {
             //subscribing the event by += operator
             //to unsubscribe from event use -= operator
-
-            Program.Posted += HasPosted;
+            
+            //if the subscriber is not subscribed/registered the event
+            //Program.Posted += HasPosted;
         }
 
         //by default below is private method

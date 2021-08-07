@@ -9,6 +9,7 @@ namespace EventsAndDelegates
     class VideoEncoder
     {
         //This method simulates the behaviour of video encoding
+        //video class is a type used as an input for below method.
         public void Encode(Video video)
         {
             Console.WriteLine("Video is being encoded.....Please wait");

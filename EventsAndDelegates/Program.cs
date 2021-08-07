@@ -7,11 +7,16 @@ namespace EventsAndDelegates
         static void Main(string[] args)
         {
 
-            //from line 11 to 14, will simulate the behaviour/event of video encoding being complete.
             var video = new Video() { VideoName = "Naruto_Anime" };
-            var vidEncode = new VideoEncoder();
+            
+            var vidEncode = new VideoEncoder(); //publisher
+            var mailService = new MailService(); //Subscriber
+
+            //subsriber should subscribe/register the event before it begin or else, it will be null and user will face null exception.
+            vidEncode.VideoEncoded += mailService.SubVideoEncodedMail;
+            
             vidEncode.Encode(video);
-            Console.WriteLine("Video has been encoded successfully");
+
         }
     }
 }

@@ -45,7 +45,7 @@ namespace SchoolMember
 
                     studentObj.Address = QnA.Console.Ask("Student_Address : ");
 
-                    studentObj.PhoneNumb = QnA.Console.AskLong("Student_Phone# : ");
+                    studentObj.Phone = QnA.Console.AskLong("Student_Phone# : ");
 
                     //calling count using Student class, we cannot call Count using its instance "studentObj".
                     Student.Count++;
@@ -79,7 +79,7 @@ namespace SchoolMember
             foreach (var student in StudentList)
             {
                 Console.WriteLine("Student_Name : {0} | Student_Grade : {1} | Student_Bday : {2} | School_Name : {5} |" +
-                    "Student_Address : {3} | Student_Phone# : {4} ", student.Name, student.Grade, student.Birthday, student.Address, student.PhoneNumb, student.schoolname);
+                    "Student_Address : {3} | Student_Phone# : {4} ", student.Name, student.Grade, student.Birthday, student.Address, student.Phone, student.schoolname);
             }
 
             Export();
@@ -119,12 +119,20 @@ namespace SchoolMember
 
     class MemberOfSchool
     {
-        public string Name;
-        public string Address;
+        //Replacing field with property. just add getter and setter & remove semi colon at the end.
+        
+        public string Name { get; set; }
+        public string Address { get; set; }
         //private access specifier makes member to be accessible within same class only, Since Phone
         //field is inherited by other classes, wes should use protected access modifier.
-        protected long Phone;
-        public long PhoneNumb
+        
+        //changing protected field to public
+        public long Phone { get; set; }
+        
+        //below PhoneNumb property does not need or rely on private/protected property,
+        //becasue the above Phone property auto implements in background.
+        
+        /*public long PhoneNumb
         {
             set
             {
@@ -135,7 +143,7 @@ namespace SchoolMember
             {
                 return Phone;
             }
-        }
+        }*/
 
     }
 
@@ -143,7 +151,7 @@ namespace SchoolMember
 
     {
 
-        public static int Count = 0;
+        public static int Count { get; set; } = 0;
         public int Grade;
         public string Birthday;
         public Eschool schoolname;

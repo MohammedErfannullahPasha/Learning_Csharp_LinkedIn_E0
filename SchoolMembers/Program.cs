@@ -76,7 +76,8 @@ namespace SchoolMember
 
             Console.WriteLine("Total Number of Students : {0}", Student.Count);
 
-            ShowGrade("");
+            //we need to pass the value as the hardcode is removed.
+            ShowGrade("Bubbly");
 
             foreach (var student in StudentList)
             {
@@ -128,11 +129,9 @@ namespace SchoolMember
         
         {
             //Entire Predicate function is inside the Find method.
-            var found = StudentList.Find((student) => 
-            
-            { 
-                return (student.Name == "Bubbly"); 
-            } );
+            //lets condense the lambda Expression by passing value to Find method.
+
+            var found = StudentList.Find(student => student.Name == name);
 
             Console.WriteLine("{0}'s Grade is : {1}", found.Name, found.Grade);
         }

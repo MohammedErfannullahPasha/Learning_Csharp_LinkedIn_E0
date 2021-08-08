@@ -76,6 +76,8 @@ namespace SchoolMember
 
             Console.WriteLine("Total Number of Students : {0}", Student.Count);
 
+            ShowGrade("");
+
             foreach (var student in StudentList)
             {
                 Console.WriteLine("Student_Name : {0} | Student_Grade : {1} | Student_Bday : {2} | School_Name : {5} |" +
@@ -115,6 +117,22 @@ namespace SchoolMember
             }
         }
 
+        //lets create a search functionality i.e., grade of student is shown when searched with student name
+        //will use Find method from collections and to use it we should createa predicate method
+        //predicate method will always return the bool and in this case, it will return true if student is found
+         public static void ShowGrade(string name)
+        {
+            var found = StudentList.Find(predicate);
+            Console.WriteLine("{0}'s Grade is : {1}", found.Name, found.Grade);
+        }
+
+        public static bool predicate(Student student)
+        {
+            if (student.Name == "Bubbly")
+                return true;
+            else
+                return false;
+        }
     }
 
     class MemberOfSchool

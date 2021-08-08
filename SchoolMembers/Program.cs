@@ -120,19 +120,31 @@ namespace SchoolMember
         //lets create a search functionality i.e., grade of student is shown when searched with student name
         //will use Find method from collections and to use it we should createa predicate method
         //predicate method will always return the bool and in this case, it will return true if student is found
-         public static void ShowGrade(string name)
+
+        //Now rather passing predicate method into ShowGrade method. we can use Lambda Expression to refactor and reduce the effort.
+        //also we no longer need to define any method type to use in lanba expression and this makes lambda Anonymous types.
+         
+        public static void ShowGrade(string name)
+        
         {
-            var found = StudentList.Find(predicate);
+            //Entire Predicate function is inside the Find method.
+            var found = StudentList.Find((student) => 
+            
+            { 
+                return (student.Name == "Bubbly"); 
+            } );
+
             Console.WriteLine("{0}'s Grade is : {1}", found.Name, found.Grade);
         }
 
+        /* we no longer need the predicate function
         public static bool predicate(Student student)
         {
-            if (student.Name == "Bubbly")
-                return true;
-            else
-                return false;
+            //refactorng code
+            return (student.Name == "Bubbly");
+
         }
+        */
     }
 
     class MemberOfSchool

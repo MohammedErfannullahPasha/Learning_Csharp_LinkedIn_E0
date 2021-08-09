@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace UnderstandThisKeyword
 {
@@ -10,6 +11,37 @@ namespace UnderstandThisKeyword
             
             Display d1 = new Display(10, 20, 30); //this will flow into instance variables
             d1.DisplayVariables(1,2,3); //this will flow in method parameter variables
+
+            Console.WriteLine("provide Further 3 Consective integers : ");
+
+            bool DataInput = true;
+
+            var consecutiveIntegers = new List<int>();
+
+            while (DataInput)
+            {
+
+                consecutiveIntegers.Add(int.Parse(Console.ReadLine()));
+                
+                Console.WriteLine("Say 'Yes' or 'No' to provide next consective integer");
+                
+                string input = Console.ReadLine();
+                if (input == "Yes")
+                {
+                    DataInput = true;
+                    Console.WriteLine("Provide the value");
+                }
+
+                if (input == "No")
+                    DataInput = false;
+            }
+
+            Console.WriteLine("Number of integers added to list : {0}", consecutiveIntegers.Count);
+
+
+            //int consecutiveIntegers;
+            //consecutiveIntegers = int.Parse(Console.ReadLine());
+            //Console.WriteLine(consecutiveIntegers);
 
         }
     }

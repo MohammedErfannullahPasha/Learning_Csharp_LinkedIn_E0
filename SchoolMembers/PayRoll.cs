@@ -28,6 +28,9 @@ namespace SchoolMember
             //adding instances of payees to list
             payees.Add(new Teacher());
             payees.Add(new Principal());
+
+            Logger.Log("Payment has started",1, "PayRoll Method");
+
         }
 
         public void PayAll()
@@ -36,6 +39,8 @@ namespace SchoolMember
             {
                 payee.pay();
             }
+
+            Logger.Log("Payment Completed",1, "PayAll Method");
 
         }
     }

@@ -13,10 +13,13 @@ namespace SchoolMember
 
     class Program
     {
+        
         static List<Student> StudentList = new List<Student>();
 
         static void Main(string[] args)
         {
+
+            Logger.Log("Tracker has Started",1, "School Member Main");
 
             PayRoll payroll = new PayRoll();
             payroll.PayAll();
@@ -86,6 +89,7 @@ namespace SchoolMember
             }
 
             Export();
+            Logger.Log("Exported Data to External source",2, "Import Method");
 
         }
 
@@ -96,6 +100,7 @@ namespace SchoolMember
         {
             Student importStudData = new Student("Erfan", 89, "31 Dec 1993", "Ballari-583104", 9480563943);
             Console.WriteLine(importStudData.Name);
+
             //importStudData.Grade, importStudData.Birthday, importStudData.Address, importStudData.PhoneNumb
         }
 

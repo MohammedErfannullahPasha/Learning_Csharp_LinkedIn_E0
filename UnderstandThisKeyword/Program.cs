@@ -20,8 +20,8 @@ namespace UnderstandThisKeyword
 
             while (DataInput)
             {
-
-                consecutiveIntegers.Add(int.Parse(Console.ReadLine()));
+                //using Extension method rather than int.Parse.
+                consecutiveIntegers.Add(Console.ReadLine().ToInt());
                 
                 Console.WriteLine("Say 'Yes' or 'No' to provide next consective integer");
                 
@@ -46,6 +46,15 @@ namespace UnderstandThisKeyword
         }
     }
 
+    //Lets create an extension method to convert string to int type
+    public static class ExtensionMethod
+    {
+        public static int ToInt(this string value)
+        {
+            return int.Parse(value);
+        }
+    }
+    
     class Display
     {
         int a, b, c; //instance variables. to use instance variables in method, we must use this keyword.

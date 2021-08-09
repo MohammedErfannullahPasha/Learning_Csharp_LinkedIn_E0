@@ -13,7 +13,9 @@ namespace SchoolMember
         
         //lets provide an optional argument to priority and this will be default value when we do not pass any argument when method is invoked
         //Madatory : optional parameter should appear at the end.
-        public static void Log(string Message, string System, int Priority = 1 )
+        //creating optional argument for System and it should be constant and constant cannot be marked static as const is static
+        const string DefaultSystem = "SchoolMember Main";
+        public static void Log(string Message, string System = DefaultSystem, int Priority = 1 )
         {
             Console.WriteLine("System: {0} \t Priority: {1} \t Log Message: {2}", System, Priority, Message);
         }

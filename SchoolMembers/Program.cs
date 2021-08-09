@@ -19,7 +19,8 @@ namespace SchoolMember
         static void Main(string[] args)
         {
             //not passing input for priority as 1 is default set.
-            Logger.Log("Tracker has Started", "School Member Main");
+            //not passing any argument to System as it is set to SchoolMember Main as optional argument
+            Logger.Log("Tracker has Started");
 
             PayRoll payroll = new PayRoll();
             payroll.PayAll();

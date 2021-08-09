@@ -17,7 +17,8 @@ namespace SchoolMember
         const string DefaultSystem = "SchoolMember Main";
         public static void Log(string Message, string System = DefaultSystem, int Priority = 1 )
         {
-            Console.WriteLine("System: {0} \t Priority: {1} \t Log Message: {2}", System, Priority, Message);
+            //String interpolation : new way of passing variables data into WriteLine method
+            Console.WriteLine($"System: {System} \t Priority: {Priority} \t Log Message: {Message}");
         }
     }
 }

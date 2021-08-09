@@ -1,0 +1,16 @@
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.csproj.AssemblyReference.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.AssemblyInfoInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.AssemblyInfo.cs
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.csproj.CoreCompileInputs.cache
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\bin\Debug\net5.0\UnderstandThisKeyword.exe
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\bin\Debug\net5.0\UnderstandThisKeyword.deps.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\bin\Debug\net5.0\UnderstandThisKeyword.runtimeconfig.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\bin\Debug\net5.0\UnderstandThisKeyword.runtimeconfig.dev.json
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\bin\Debug\net5.0\UnderstandThisKeyword.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\bin\Debug\net5.0\ref\UnderstandThisKeyword.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\bin\Debug\net5.0\UnderstandThisKeyword.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\ref\UnderstandThisKeyword.dll
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.pdb
+C:\Users\v-mopas\source\repos\Learning_Csharp_LinkedIn_E0\UnderstandThisKeyword\obj\Debug\net5.0\UnderstandThisKeyword.genruntimeconfig.cache

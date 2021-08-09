@@ -18,8 +18,8 @@ namespace SchoolMember
 
         static void Main(string[] args)
         {
-
-            Logger.Log("Tracker has Started",1, "School Member Main");
+            //not passing input for priority as 1 is default set.
+            Logger.Log("Tracker has Started", "School Member Main");
 
             PayRoll payroll = new PayRoll();
             payroll.PayAll();
@@ -89,7 +89,8 @@ namespace SchoolMember
             }
 
             Export();
-            Logger.Log("Exported Data to External source",2, "Import Method");
+
+            Logger.Log("Exported Data to External source","Import Method",2);
 
         }
 

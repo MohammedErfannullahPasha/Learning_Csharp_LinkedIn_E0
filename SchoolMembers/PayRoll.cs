@@ -29,7 +29,8 @@ namespace SchoolMember
             payees.Add(new Teacher());
             payees.Add(new Principal());
 
-            Logger.Log("Payment has started",1, "PayRoll Method");
+            //not passing input for priority as 1 is default set.
+            Logger.Log("Payment has started","PayRoll Method");
 
         }
 
@@ -40,7 +41,8 @@ namespace SchoolMember
                 payee.pay();
             }
 
-            Logger.Log("Payment Completed",1, "PayAll Method");
+            //not passing input for priority as 1 is default set.
+            Logger.Log("Payment Completed","PayAll Method");
 
         }
     }
